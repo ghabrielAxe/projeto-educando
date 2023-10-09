@@ -1,0 +1,32 @@
+.navbar-nav .nav-link {
+    font-size: 18px; 
+    font-weight: bold;
+    color: #0F71F2; 
+}
+
+.section{
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.code{
+    background-color: #F7F6F3;
+    border-radius: 5px;
+    color: #DD4A79;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 1%;
+    padding-bottom:1% ;
+    padding-top: 1%;
+}
+
+.comentario{
+    color: #708090;
+}
+
+.trecho{
+    color: #DD4A79;
+}
+.margin-bottom-small {
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}

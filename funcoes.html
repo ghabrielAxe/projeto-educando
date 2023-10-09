@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+        <link rel="icon" href="img/icone-educando.ico" type="image/x-icon">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo-educando.png" width="auto" height="auto" class="d-inline-block align-top"
+                    class="d-inline-block align-top" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tutoriais.html">Tutoriais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="exercicios.html">Exercícios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-4">
+        <div class="section">
+            <h1>Descubra o Mundo das Funções em Python!</h1>
+
+            <p>Em programação, uma função é como um feitiço mágico que realiza uma tarefa específica quando é chamado.
+                Vamos aprender sobre funções com um exemplo divertido:</p>
+
+            <h2>Definindo uma Função para Cumprimentar</h2>
+            <div class="code">
+                <code>
+                def cumprimentar(nome):<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;return "Olá, " + nome + "!"
+            </code>
+            </div>
+
+            <p>Neste feitiço mágico chamado <span class="trecho">cumprimentar</span>, <span class="trecho">nome</span> é
+                como um ingrediente especial. Quando você chama o feitiço com um nome, ele cria uma saudação mágica!</p>
+
+            <h2>Chamando a Função</h2>
+            <div class="code">
+                <code>
+                nome_do_usuario = "Harry"<br>
+                saudacao_magica = cumprimentar(nome_do_usuario)<br>
+                print(saudacao_magica)
+            </code>
+            </div>
+
+            <p>Aqui, nós chamamos o feitiço <span class="trecho">cumprimentar</span> com o nome <span
+                    class="trecho">"Harry"</span> e a saudação mágica aparece: <span class="trecho">"Olá,
+                    Harry!"</span>.</p>
+
+            <h2>Misturando Feitiços</h2>
+            <div class="code">
+                <code>
+                def quadrado(numero):<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;return numero * numero<br><br>
+    
+                numero = 5<br>
+                resultado = quadrado(numero)<br>
+                print("O quadrado de", numero, "é", resultado)
+            </code>
+            </div>
+
+            <p>Aqui, usamos outro feitiço chamado <span class="trecho">quadrado</span> para encontrar o quadrado de um
+                número!</p>
+        </div>
+</body>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
